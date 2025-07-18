@@ -17,11 +17,8 @@ You send a JSON object with an `email` and/or `phoneNumber`, and the server chec
 - **dotenv for config**
 ---
 
-## 🔗 Live API URL
-
-
-Replace with your actual Render URL.
-
+###  🔗 Live API URL
+   https://bitespeed-x9qn.onrender.com
 ---
 
 ## Screenshot
