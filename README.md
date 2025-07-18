@@ -2,27 +2,6 @@
 
 This project is a backend service built with **Node.js + Express** and uses **Supabase (PostgreSQL)** to identify and link user contact records (by email and phone number). It's deployed on **Render** and exposes a single `/identify` endpoint.
 
----
-
-## 🔗 Live API URL
-
-
-Replace with your actual Render URL.
-
----
-
-## Screenshot
-![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(734).png?raw=true)
-![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(735).png?raw=true)
-![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(736).png?raw=true)
-![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(737).png?raw=true)
-![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(738).png?raw=true)
-![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(739).png?raw=true)
-![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(740).png?raw=true)
-![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(741).png?raw=true)
-
-
-
 ## 🧪 How It Works
 
 You send a JSON object with an `email` and/or `phoneNumber`, and the server checks the database for any existing contacts (primary or secondary). It either links them or creates a new contact accordingly.
@@ -36,6 +15,26 @@ You send a JSON object with an `email` and/or `phoneNumber`, and the server chec
 - **Render (Hosting)**
 - **Sequelize ORM**
 - **dotenv for config**
+---
+
+## 🔗 Live API URL
+
+
+Replace with your actual Render URL.
+
+---
+
+## Screenshot
+![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(735).png?raw=true)
+![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(736).png?raw=true)
+![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(737).png?raw=true)
+![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(738).png?raw=true)
+![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(739).png?raw=true)
+![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(740).png?raw=true)
+![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(741).png?raw=true)
+
+
+
 
 ---
 
@@ -72,7 +71,7 @@ DATABASE_URL=postgresql://postgres:***********@db.jxjcjmarroyvxnfafxiq.supabase.
 ## 🧑‍💻 Local Development
 #### 1. Clone the repo
 ``` bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/vik802207/bitespeed.git
 cd your-repo
 ```
 #### 2. Install dependencies
