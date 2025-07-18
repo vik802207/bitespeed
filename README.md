@@ -12,6 +12,16 @@ Replace with your actual Render URL.
 ---
 
 ## Screenshot
+![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(734).png?raw=true)
+![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(735).png?raw=true)
+![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(736).png?raw=true)
+![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(737).png?raw=true)
+![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(738).png?raw=true)
+![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(739).png?raw=true)
+![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(740).png?raw=true)
+![Alt text](https://github.com/vik802207/bitespeed/blob/main/img/Screenshot%20(741).png?raw=true)
+
+
 
 ## 🧪 How It Works
 
@@ -60,24 +70,25 @@ PORT=3000
 DATABASE_URL=postgresql://postgres:***********@db.jxjcjmarroyvxnfafxiq.supabase.co:5432/postgres
 ```
 ## 🧑‍💻 Local Development
-# 1. Clone the repo
+#### 1. Clone the repo
 ``` bash
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 ```
-# 2. Install dependencies
+#### 2. Install dependencies
 ```bash
 npm install
 ```
-# 3. Create .env file with Supabase & DB keys
+#### 3. Create .env file with Supabase & DB keys
 ```bash
 cp .env.example .env  # then fill it manually
 ```
-# 4. Start the server
+#### 4. Start the server
 ```bash
 npx ts-node-dev src/server.ts
 ```
 ## 🙋‍♂️ Author
-Vikash Gupta – LinkedIn
+Vikash Gupta
+vikashg802207@gmail.com
 
 
